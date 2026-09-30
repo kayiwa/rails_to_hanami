@@ -80,7 +80,7 @@
    docker exec -w /usr/src/app/bookshelf -it rails2hanami bundle exec hanami generate repo book
    ```
 
-1. Examples of the syntax for Hanami can be found in the docs and specifically the web app tutorial https://hanakai.org/learn/hanami/v2.3/getting-started/building-a-web-app
+1. Examples of the syntax for Hanami can be found in the docs and specifically the web app tutorial https://hanakai.org/learn/hanami/v3.0/getting-started/building-a-web-app
 
 1. Add The book interface methods to **bookshelf/app/repos/book_repo.rb** inside the Class 
    ```
@@ -640,8 +640,7 @@
    ```
 
 #### Exercise 1 Hints
-
-1. There is an example in the [Hanami docs for deleting a Book](https://hanakai.org/learn/hanami/v2.3/getting-started/building-a-web-app#deleting-a-book)
+1. There is an example in the [Hanami docs for deleting a Book](https://hanakai.org/learn/hanami/v3.0/getting-started/building-a-web-app#deleting-a-book)
 
 1. All elements are already visible to the user.  The link for deletion is on the show page
 
@@ -691,7 +690,7 @@
 
 #### Exercise 2 Hints
 
-1. There is an example in the [Hanami docs for updating a Book](https://hanakai.org/learn/hanami/v2.3/getting-started/building-a-web-app#updating-a-book)
+1. There is an example in the [Hanami docs for updating a Book](https://hanakai.org/learn/hanami/v3.0/getting-started/building-a-web-app#updating-a-book)
 
 1. The new and edit templates display the same form template.  You can expose the book submit wording, form method and form path in the update view **views/edit.rb** with code like
    ```
