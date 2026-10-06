@@ -1,0 +1,17 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2026-10-05T09:07:57Z",
+      "resolved": "github:NixOS/nixpkgs/aa48d347080940b8a2b8d2f48228674e280a3514?lastModified=1791191277"
+    },
+    "github:NixOS/nixpkgs/nixpkgs-unstable#ruby_3_4": {
+      "last_modified": "2026-10-05T09:07:57Z",
+      "resolved": "github:NixOS/nixpkgs/aa48d347080940b8a2b8d2f48228674e280a3514?lastModified=1791191277#ruby_3_4"
+    },
+    "podman": {
+      "resolved": "github:NixOS/nixpkgs/aa48d347080940b8a2b8d2f48228674e280a3514#podman",
+      "source": "nixpkg"
+    }
+  }
+}
